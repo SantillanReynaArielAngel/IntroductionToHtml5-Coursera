@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--La cabecera (en inglés Head) es la parte de un documento HTML que contiene metadatos sobre ese documento, como el autor, la descripción 
+            y los enlaces a los archivos CSS o JavaScript que se deben aplicar al documento HTML. Es la parte del documento web que no es visible al usuario.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Revisar como se escriben comentarios en HTML, CSS, PHP y javascrip: https://www.templatemonster.com/help/es/how-to-adduse-comments-in-html-css-php-js.html-->
+    <header> <!--El elemento de HTML Header (<header>) representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, 
+                así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes.-->
+        <h1>Se utiliza H1 para titulos</h1> 
+        <h2>Este es h2 , tienne menor tamaño, puede ir autor por ejemplo</h2>
+    </header>
+    <h3>Lo siguiente esta dentro de una etiqueta nav</h3>
+    <nav><!-- representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos.
+            Ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.-->
+        <ul><!--Crea una lista desordenada-->
+            <li><a href="#overwiew">Overview</a><!--<a> crea un enlace a otras paginas de internet, archivos o ubicacones dentro de la misma pagina --></li><!--Representa un elemento de una lista ordenada(<ol></ol>) o desordenada(<ul></ul>)-->
+            <li><a href="https://developer.mozilla.org/es/"> Pagina MDN Web Docs</a></li>        
+        </ul>
+    </nav>
+    
+    <h3>LO SIGUIENTE IMAGEN ESTA DENTRO DE LA ETIQUETA  FIGURE:</h3>
+    <figure><!--El elemento HTML <figure> representa contenido independiente.Por lo general, se trata de una imagen, una ilustración, un diagrama, un fragmento de código,
+                o un esquema al que se hace referencia en el texto principal (puede ser tambien algun archivo multimedia), pero que se puede mover a otra 
+                páginao a un apéndice sin que afecte al flujo principal.-->
+        <img src="https://vignette.wikia.nocookie.net/claymore/images/4/4f/Rigardo_9.JPG/revision/latest/top-crop/width/300/height/300?cb=20111024181551&path-prefix=es"
+             alt="RIGARDO">
+        <figcaption>RIGARDO!!! (Leyenda o subtitulo de la imagen)</figcaption><!--El elemento HTML <figcaption>  representa un subtítulo o leyenda asociado al contenido del elemento padre <figure>, pudiendo ser colocado como primer o último hijo. 
+                                            Es importante destacar que el elemento <figcaption> es opcional.-->
+    </figure>
+
+    <h3>El siguiente copyray esta dentro de una etiqueta foooter:</h3>
+    <footer><!--El Elemento HTML Footer (<footer>) representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección
+                (p.e, su ancestro mas cercano <article>, <aside>, <nav>, <section>,<blockquote>, <body>, <details>, <fieldset>, <figure>, <td>). Un pie de página 
+                típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados. Tambien puede ser usado
+                para redes sociales-->
+        &copy; 15 de Julio del 2020<br><!--El elemento HTML line break <br> produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema
+                                            o una dirección, donde la división de las líneas es significante.
+                                    No utilices <br> para incrementar el espacio entre líneas de texto; para ello utiliza la propiedad margin de CSS o el elemento <p>-->
+        <a href="https://www.facebook.com/Wonder-Chicken-SUCRE-878959002191607/">Wonder Chicken Sucre</a>
+    </footer>
+</body>
+</html>
