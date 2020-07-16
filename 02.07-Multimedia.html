@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+<body>
+    <h1>Video</h1>
+    <video src="videos/En paz conmigo.mp4#t=30" autoplay controls loop poster="images/panda.jfif"><!--Por alguna razon no funciona utoplay, controls da controles de reproduccion, loop hace que se reinicie el video nuevamente y poster pone una imgen como portada del video-->
+        <code>video</code>
+    </video><!--El elemento video se utiliza para incrustar vídeos en un documento HTML o XHTML.-->
+
+    <video src="https://youtu.be/a0xx0nTx2Js?list=RDa0xx0nTx2Js" autoplay controls loop><!--utilizando un video de manera online-->
+        <code>video</code>
+    </video>
+    <h1>Audio</h1>
+    <audio src="audios/Wake Up-mc.mp3#t=40,55" autoplay controls loop></audio>
+
+<!--NOTA:
+    Si colocamos: src="videos/En paz conmigo.mp4#t=10,20" o audios/Wake Up-mc.mp3#t=40,55 Nos reproducira desde los segundo especificados (#t=inicio,fin)
+    Si colocamos: src="videos/En paz conmigo.mp4#t=30"  o audios/Wake Up-mc.mp3#t=40 Nos reproducira desde el segundo especificados (#t=inicio)
+    Para esto revisar: https://developer.mozilla.org/es/docs/Web/HTML/Usando_audio_y_video_con_HTML5 -->
+    
+</body>
+</html>
