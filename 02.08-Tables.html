@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <tr>: El elemento HTML fila de tabla (table row) <tr> define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <td> y <th>.
+         <td>: El elemento HTML Celda de tabla (<td>) define la celda de una tabla que contiene datos. Esta participa en el modelo de tablas.
+    -->
+    <p><!--El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos.-->
+    <table><!--El Elemento de Tabla HTML (<table>) representa datos en dos o mas dimensiones.-->
+        <caption>Lo siguiente esta detro de una tabla:</caption>
+        <tr><td>One</td><td>two</td><td>three</td></tr>
+        <tr><td>four</td><td>five</td><td>six</td></tr>
+        <tr><td>seven</td><td>ieght</td><td>nine</td></tr>
+    </table>
+
+    <p>
+    <table>
+        <caption>Utilizando th para encabezados en negrira</caption><!--Caption: Es el encargado de darle un título descriptivo a las tablas. Es mmala practica tratar de usar etiquetas H paea este proposito-->
+        <tr><th>Columna 1</th><th>Columna 2</th><th>Columna 3</th></tr>
+        <tr><td>Isley</td><td>Riful</td><td>Luciela</td></tr>
+    </table>
+
+    <p>
+    <table border="1"><!--Borde: Sirve para dar un borde a todos los elementos de nuestra tabla-->
+        <!--rowspan: sirve para combinar filas, este por defecto esta en 1 si no se le indica el numero
+            colspan: sirve para combinar columnas, este por defecto esta en 1 si no se le indica el numero-->
+        <caption>Utilizando colspan y rowspan</caption><!--Caption: Es el encargado de darle un título descriptivo a las tablas. Es mmala practica tratar de usar etiquetas H paea este proposito-->
+        <tr><th>Nombres de Hijos</th><th>Nombres de Padres</th></tr>
+        <tr><td rowspan="2">Caterine</td><td>Antonio Garnica</td></tr><!--caterine ocupara 2 filas (la suya donde esra Antonio y la siguiente que seria Carla)-->
+        <tr><td>Carla de Garnica</td></tr>
+        <tr><td>Margarita</td><td>Selia Marquez</td></tr>
+        <tr><td rowspan="2">Edward</td><td>Caterine Zurita</td></tr>
+        <tr><td>Jose Leon</td></tr>
+    </table>
+</body>
+</html>
